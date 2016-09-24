@@ -1,82 +1,135 @@
 body {
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    background-color: #ffffff;
-    color: #777777;
-    max-width: 960px;
     background-image: url(../images/vichy.png);
-    margin: auto;
-    
-}
-
-header {
-    clear: both;
-    background-color: #ffffff;
-    float: left;
-    width: 960px;
-    max-height: 50px;
-    margin-bottom: 15px;
-}
-
-ul li{
-    display: inline;
-    list-style: none;
-    padding: 5px;
+    color: #777777;
+    margin:auto;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h1 {
-    background-color: #4aaaa5;
     color: #ffffff;
-    float: left;
-    font-family: 'Georgia', 'Times','Times New Roman', 'serif';
-    margin-right: 200px;
-    max-width: inherit;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding: 15px;
+    margin: auto;
 }
 
 h2, h3 {
     color: #4aaaa5;
-    font-family: 'Georgia', 'Times','Times New Roman', 'serif';
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#nameBox {
+    background-color: #4aaaa5;
+    float: left;
+    height: inherit;
+    position: relative;
+    left: 5%;
 }
 
 nav {
-    background-color: #ffffff;
     float: right;
+    margin: auto;
+    padding: 5px;
+    position: relative;
+    right: 10%;
+}
+
+nav a, a:link, a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+nav a:hover, .socialIcons img:hover, #subBtn:hover {
+    box-shadow: 0px 0px 40px #00fff2;
+}
+
+nav ul li {
+    display: inline;
+    font-size: .75em;
+    list-style: none;
+    padding: 10px;
+}
+
+.mainContent {
+    clear: both;
+    width: 960px;
+    margin: 20px auto;
+    overflow: auto;
 }
 
 .mainSection {
     background-color: #ffffff;
-    clear: both;
+    border: 1px solid #cccccc;
     float: left;
-    padding: 15px;
+    padding: 10px;
     width: 650px;
 }
 
-.mainSection img{
+.mainSection img {
     float: left;
     margin: 15px;
+    width: 200px;
+    height: 200px;
 }
 
-.socialIcons {
-    align-content: space-between;
+.mainSection p {
+    margin: 10px;
+    font-size: .95em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.mainSection input, textarea {
+    width: 95%;
+    margin: auto;
+    padding: 5px;
+}
+
+.mainSection button {
+    background-color: #4aaaa5;
+    border: none;
+    font-size: .8em;
+    color: #ffffff;
+    padding: 20px;
+    margin: 5px;
+}
+
+.socialIcons  {
     background-color: #ffffff;
-    float: right;
+    border: 1px solid #cccccc;
+    float: left;
     max-width: 270px;
-    padding: 14px;
+    padding: 10px;
+    position: relative;
+    left: 20px;
 }
 
-.socialIcons img{
-    height: 40px;
-    widows: 40px;
+.socialIcons ul li {
+    display: inline;
+    outline-style: none;
+    padding: 5px;
+    position: relative;
+    right: 20px;
+}
+
+.socialIcons img {
+    width: 50px;
+    height: 50px;
 }
 
 footer {
-    height: 60px;
-    text-align: center;
-    clear: both;
     background-color: #666666;
-}
-
-footer p{
-    margin: auto;
-    padding: 20px;
-    color: #ffffff;
+    border-top: 4px solid #4aaaa5;
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
 }

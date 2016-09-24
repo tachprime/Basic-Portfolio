@@ -11,13 +11,13 @@
 <body>
     
     <header>
-        <h1>Alex Rivera</h1>
+        <div id="nameBox"><h1>Alex Rivera</h1></div>
         
         <nav>
             <ul>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,6 +26,17 @@
         <section class="mainSection">
             <h2>Contact</h2>
             <hr>
+            
+            <label>Name<br>
+                <input type="text" value="John Smith"><br>
+            </label><br>
+            <label>Email<br>
+                <input type="email" value="example@gmail.com"><br>
+            </label><br>
+            <label>Message<br>
+                <textarea rows="20"></textarea><br>
+            </label>
+            <button id="subBtn">Submit</button>            
         </section>
     
         <aside class="socialIcons">
@@ -42,10 +53,10 @@
                     <a href="#" target="_blank">
                         <img src="assets/images/Linkedin.png" alt="Linkedin logo">
                     </a>
-                </li>
+                </li> 
                 <li>
                     <a href="#" target="_blank">
-                        <img src="assets/images/Stackoverflow.png" alt="StackOverflow logo">
+                        <img src="assets/images/Stackoverflow.png" alt="StackOverflow logo" style="background-color: black">
                     </a>
                 </li>
             </ul>
@@ -53,7 +64,6 @@
     </div>
     
     <div>
-        <div id="footerBuffer"></div>
         <footer><p>©Copyright 2016 Alex Rivera</p></footer>
     </div>
     
