@@ -9,8 +9,12 @@ body {
 }
 
 header {
-    margin: auto;
+    clear: both;
     background-color: #ffffff;
+    float: left;
+    width: 960px;
+    max-height: 50px;
+    margin-bottom: 15px;
 }
 
 ul li{
@@ -20,31 +24,35 @@ ul li{
 }
 
 h1 {
-    float: left;
-    margin-right: 200px;
-    max-width: inherit;
     background-color: #4aaaa5;
     color: #ffffff;
+    float: left;
+    font-family: 'Georgia', 'Times','Times New Roman', 'serif';
+    margin-right: 200px;
+    max-width: inherit;
 }
 
 h2, h3 {
     color: #4aaaa5;
+    font-family: 'Georgia', 'Times','Times New Roman', 'serif';
 }
 
 nav {
+    background-color: #ffffff;
     float: right;
 }
 
-.bio {
+.mainSection {
     background-color: #ffffff;
     clear: both;
     float: left;
-    max-width: 650px;
+    padding: 15px;
+    width: 650px;
 }
 
-.bio img{
+.mainSection img{
     float: left;
-    margin: 25px;
+    margin: 15px;
 }
 
 .socialIcons {
