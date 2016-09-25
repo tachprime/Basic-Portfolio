@@ -6,6 +6,7 @@ html {
 
 body {
     background-image: url(../images/vichy.png);
+    background-attachment: fixed;
     color: #777777;
     height: 100%;
     width: 960px;
@@ -71,7 +72,7 @@ nav ul li {
 .mainContent {
     clear: both;
     margin: auto;
-    min-height: 100%;
+    height: 100%;
     padding: 10px;
 }
 
@@ -129,7 +130,6 @@ nav ul li {
 }
 
 .gallery li {
-    border: 2px solid red;
     float: left;
     display: inline;
     outline-style: none;
