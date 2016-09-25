@@ -62,7 +62,8 @@ nav ul li {
     clear: both;
     width: 960px;
     height: 100%;
-    margin: 20px;
+    margin: auto;
+    padding: 20px;
     overflow: auto;
 }
 
@@ -101,6 +102,26 @@ nav ul li {
     color: #ffffff;
     padding: 20px;
     margin: 5px;
+}
+
+.gallery p{
+    color: #ffffff;
+    float: left;
+    clear: both;
+    background-color: #4aaaa5;
+    position: relative;
+    width: 180px;
+    bottom: 90px;
+    left: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.gallery li{
+    float: left;
+    display: inline;
+    outline-style: none;
 }
 
 .socialIcons  {
